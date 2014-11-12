@@ -1,0 +1,9 @@
+task :openweather do
+  require 'sinatra'
+  require 'json/ext'
+  require 'mongoid'
+  require 'net/http'
+  require './config/config.rb'
+  require "./models/weather_open.rb"
+  WeatherOpen.openweather
+end

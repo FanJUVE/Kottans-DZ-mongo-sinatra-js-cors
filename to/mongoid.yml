@@ -1,0 +1,6 @@
+development:
+  sessions:
+    default:
+      database: mongoweather_api
+      hosts:
+        - localhost:27017
